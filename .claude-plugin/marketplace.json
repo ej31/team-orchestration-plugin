@@ -1,18 +1,25 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "jeff-orchestration",
+  "name": "team-orchestration",
+  "description": "상황별 Agent Teams 오케스트레이션 프리셋. 개발, 검증, 디버깅, 리팩토링, PR 리뷰 등 개발 라이프사이클 단계별로 최적화된 팀 구성을 슬래시 커맨드로 즉시 실행.",
   "owner": {
     "name": "Jeff",
-    "email": "imtaejong@example.com"
+    "email": "imtaejong@gmail.com"
   },
   "plugins": [
     {
-      "name": "team-orchestration",
-      "description": "상황별 Agent Teams 오케스트레이션 프리셋. 개발, 검증, 디버깅, 리팩토링, PR 리뷰 등 개발 라이프사이클 단계별로 최적화된 팀 구성을 슬래시 커맨드로 즉시 실행.",
+      "name": "team",
+      "description": "상황별 Agent Teams 오케스트레이션 프리셋. /team:develop, /team:verify, /team:debug, /team:refactor, /team:review-pr 커맨드로 개발 라이프사이클 전 단계에서 최적화된 팀 구성을 즉시 실행.",
       "version": "1.0.0",
-      "source": ".",
+      "author": {
+        "name": "Jeff",
+        "email": "imtaejong@gmail.com"
+      },
+      "source": "./",
       "category": "workflow",
-      "tags": ["agent-teams", "orchestration", "multi-agent", "workflow"]
+      "homepage": "https://github.com/ej31/team-orchestration-plugin",
+      "tags": ["agent-teams", "orchestration", "multi-agent", "workflow", "development"]
     }
-  ]
+  ],
+  "version": "1.0.0"
 }
