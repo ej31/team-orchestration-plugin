@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "team",
+      "name": "crews",
       "description": "상황별 Agent Teams 오케스트레이션 프리셋. /team:develop, /team:verify, /team:debug, /team:refactor, /team:review-pr 커맨드로 개발 라이프사이클 전 단계에서 최적화된 팀 구성을 즉시 실행.",
       "version": "1.0.0",
       "author": {

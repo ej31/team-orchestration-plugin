@@ -1,5 +1,5 @@
 {
-  "name": "team",
+  "name": "crews",
   "version": "1.0.0",
   "description": "상황별 Agent Teams 오케스트레이션 프리셋. 개발, 검증, 디버깅, 리팩토링, PR 리뷰를 슬래시 커맨드로 즉시 실행.",
   "author": {
